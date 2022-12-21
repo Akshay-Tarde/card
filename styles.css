@@ -1,3 +1,7 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 .card {
     background-color: black;
     color: white;
@@ -26,8 +30,6 @@ h2 {
     margin-bottom: 0;
 }
 
-strong {}
-
 .accent {
     color: #FFE600;
 }
@@ -43,4 +45,18 @@ a:hover {
 
 a:active {
     color: tomato;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #FFE600;
+    padding: 15px 30px;
+    margin-right: 25px;
+    color: black;
+}
+
+.button:focus,
+.button:hover {
+    color: aquamarine;
 }
